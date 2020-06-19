@@ -1,4 +1,3 @@
-CLion   
 macro(fuzzer name)
     add_executable(${name} ${name}.cpp)
     set_target_properties(${name}
